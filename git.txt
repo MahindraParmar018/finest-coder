@@ -42,17 +42,28 @@ Git commands:-
 2) git status (to show files status) 
 --> untrack file (U) Means git is not tracking that file. New file that git doesn't yet track
 --> modified (M) Changed
---> staged (means any file we first modified then we add it. So, when we add it then it is staged)
---> unmodified (means any file we first modified then we add it. So, when we add it then it is staged and then we commit it. So, it is unmodified)
+--> staged (Means any file we first modified then we add it. So, when we add it then it is staged)
+--> unmodified (Means any file we first modified then we add it. So, when we add it then it is staged and then we commit it. So, it is unmodified)
 
-3) git add file name or (simply . for all the files to staged) (add new or changed files in your working directory to  the git staging area) What is working directory it means we are currently making changes. First we have unmodified or untracked files are add(engagement stage) and thn commit(shadi stage.)
+3) git add file name or (Simply . for all the files to staged) (Add new or changed files in your working directory to  the git staging area) What is working directory it means we are currently making changes. First we have unmodified or untracked files are add(engagement stage) and thn commit(shadi stage.)
 
 4)git commit -m"some message" (It is to record the change) It means our commit record is printed. 
 --> ahead by one commit means It is implemented only on our local system and their are no changes made in remote github platform.
 
-5) git push origin main (to upload our changes from local to remote system we use push command OR upload local repo content to remote repo)  
+5) git push origin main (To upload our changes from local to remote system we use push command OR upload local repo content to remote repo)  
 
 6) init command (Used to create a new git repo)
 --> git init (Initialized empty Git repository)
 --> git remote add origin link (link from remote system to local system)
---. git remote -v (to verify remote)
+--> git remote -v (To verify remote) used to know that what origin is set or which remote repository we are talking off.
+--> git branch (To check branch) What is branch - Suppose their is a company which has feature1 team, feature2 team and bug fix team so this all teams will have a copy name as branch.
+--> git branch -M name of new branch (TO rename a branch)
+--> git push origin main (To push repo to remote system) We can use -u (to set up stream). Suppose we are working on a same project for a long time so we can use -u to make easy that we are saying that we are working all push operation on origin main. So in future we can use only git push
+
+* Work Flow :- (Local Git)
+--> Github repo
+--> Clone
+--> Changes
+--> Add
+--> Commit
+--> Push
