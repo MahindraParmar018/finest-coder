@@ -67,3 +67,20 @@ Git commands:-
 --> Add
 --> Commit
 --> Push
+
+* Branch command :-
+--> git branch (To check that in which branch we are)
+--> git branch -M new name (To change the name of the existing branch)
+--> git checkout branch name (To chnage the branch)
+--> git checkout -b new branch name (To create the new branch) By, creating a newly branch the changes done in the new branch will shown in that branch only.
+--> git checkout -d branch name (To delete the existing branch) So, we just can't delete a branch in which we are present to delete that we have to move to the another branch. 
+
+* Merging Code :-
+1) git diff branch name (To compare commits, branches, files and more) It shows the differences between the branches.
+--> git merge branch name (To merger 2 branches)
+
+2) Create a PR (pull request) Means it tells others about changes you have pushed to a branch on a repository on github. By pr the manager or the leading director in main branch decides to accept changes or can give review and previews. When we use pr in our remote system the merge changes does not show in our local system.
+--> To make changes in our local system we use pull command.
+--> git pull origin main (Used to fetch and download content from a remote repo and immediately update the local repo to match that content)
+
+3) Resolving merge conflicts (an event that takes place when git is unable to automatically reslove differences in code between two commits) 
