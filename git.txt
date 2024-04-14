@@ -33,7 +33,19 @@ Terminal commands:-
 
 
 Git commands:- 
-1) Clone (Cloning a repository on our local machines) Used by git clone
+1) git Clone link (Cloning a repository on our local machines) Used by git clone
 --> remote machines means github platforms and local machines means laptops, pc.
 --> https is the easiest way to clone a repository and be done by ssh also.
 
+2) git status (to show files status) 
+--> untrack file (U) Means git is not tracking that file. New file that git doesn't yet track
+--> modified (M) Changed
+--> staged (means any file we first modified then we add it. So, when we add it then it is staged)
+--> unmodified (means any file we first modified then we add it. So, when we add it then it is staged and then we commit it. So, it is unmodified)
+
+3) git add file name or (simply . for all the files to staged) (add new or changed files in your working directory to  the git staging area) What is working directory it means we are currently making changes. First we have unmodified or untracked files are add(engagement stage) and thn commit(shadi stage.)
+
+4)git commit -m"some message" (It is to record the change) It means our commit record is printed. 
+--> ahead by one commit means It is implemented only on our local system and their are no changes made in remote github platform.
+
+5) git push origin main (to upload our changes from local to remote system we use push command OR upload local repo content to remote repo) 
