@@ -1,0 +1,39 @@
+Git - Is a version control system is a tool that helps tpo track changes in code. It is very poopular world wide, free, opensource, fast and scalable. Git is a software application in our system. (exapmle of application with sign up page, buttons, help)
+
+Git offers Tracking the history and collaboration.
+
+Git track history by taking screenshots of the updates.
+
+Git Hub - Is a platform allows developers to store and manage their code using git. https://github.com. Git hub allows to upload projects private and public.(Helps in resumes)
+
+In git hub repository are the folders which store and manage code.
+
+FIrst creating repository and make our first commit.
+
+Readme.md here md is mark down. readme.md stores relevent information of repo which shows the features, how to use and what in on our project. Reaadme.md file allows the useage of html tags such as <br> Or <hr> for new line or hoorizontal line.
+
+In Commit we have to first add(engaement) and then commit(shadi)
+
+For setting up Git - First download vs code and git base (can use git --version to clarify that the git base is properly set up or not) 
+
+Git configuring means in which account we are going to make changes from git to github.
+Git configuring (git config --global user.name "My name", git connfig --global user.email "Email", git config --list)
+Their are two configuration global(Global in whole system with taht email id) and local(in specific repo with different email) 
+
+~ this is tild which means we are talking about root directory(that we we in our main directory or folder or root directory)
+
+Terminal commands:-
+1) cd folder name (change directory)
+--> directory is a folder
+--> for auto completion we can use tab
+
+2) clear command to clear everything
+
+3) ls command to list all files. Their are two types to files one are normal which are visible to us and another one is hideen files to watch them we use ls -a command.
+
+
+Git commands:- 
+1) Clone (Cloning a repository on our local machines) Used by git clone
+--> remote machines means github platforms and local machines means laptops, pc.
+--> https is the easiest way to clone a repository and be done by ssh also.
+
