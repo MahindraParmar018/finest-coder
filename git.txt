@@ -84,3 +84,20 @@ Git commands:-
 --> git pull origin main (Used to fetch and download content from a remote repo and immediately update the local repo to match that content)
 
 3) Resolving merge conflicts (an event that takes place when git is unable to automatically reslove differences in code between two commits) 
+
+* Undoing Chnanges :- 
+1) staged changes  (It is used when the changes are add but not commited)
+--> git reset file name (This is use when we had make change inn one or two file)
+--> git reset (When we had make changes in multiple files then  just we use this)
+
+2) commited changes (For one commit)
+--> git reset HEAD~1
+--> We use this when we had add and commit any change. It is only for one commit. Head comes to the latest commit.
+
+3) commited changes (For many commits)
+--> git reset commit hash (We use to undo many commits at a time and it removes commit from git)
+--> git reset --hard commit hash (We use hard to undo many commits at a time but it removes commit from git as well as visual studio also)
+
+* Fork :-
+--> A fork is a new repository that shares code and visibility settings with the original "up stream" repository.
+--> Fork is a rough copy. Forking is just we can copy or fork any code from open source and even make changes in it and make a pull request.
